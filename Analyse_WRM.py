@@ -6,7 +6,7 @@ import math as math
 import os
 
 #load files, change path
-folder=r'C:\Users\mateusz.bak\Desktop\power\rower\2019'
+folder=r'C:\Users\mateusz.bak\Desktop\programs\bike'
 
 marzec = pd.read_csv(os.path.join(folder,r"historia_przejazdow_2019-03.csv"),index_col=0)
 kwiecien = pd.read_csv(os.path.join(folder,r"historia_przejazdow_2019-04.csv"),index_col=0)
