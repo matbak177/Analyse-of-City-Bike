@@ -14,7 +14,7 @@ maj = pd.read_csv(os.path.join(folder,r"historia_przejazdow_2019-05.csv"),index_
 czerwiec = pd.read_csv(os.path.join(folder,r"historia_przejazdow_2019-06.csv"),index_col=0)
 lipiec = pd.read_csv(os.path.join(folder,r"historia_przejazdow_2019-07.csv"),index_col=0)
 sierpien = pd.read_csv(os.path.join(folder,r"historia_przejazdow_2019-08.csv"),index_col=0)
-wrzesien = pd.read_csv(os.path.join(folder,r"C:historia_przejazdow_2019-09.csv"),index_col=0)
+wrzesien = pd.read_csv(os.path.join(folder,r"historia_przejazdow_2019-09.csv"),index_col=0)
 pazdziernik = pd.read_csv(os.path.join(folder,r"historia_przejazdow_2019-10.csv"),index_col=0)
 listopad = pd.read_csv(os.path.join(folder,r"historia_przejazdow_2019-11.csv"),index_col=0)
 grudzien = pd.read_csv(os.path.join(folder,r"historia_przejazdow_2019-12.csv"),index_col=0)
