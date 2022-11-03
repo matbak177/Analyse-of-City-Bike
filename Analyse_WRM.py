@@ -206,5 +206,3 @@ wycinek=wyc3['rental_place'].value_counts()
 
 wycinek.to_csv(os.path.join(folder,'wycinek.csv'),sep=' ',mode='w',encoding='CP1250')
 wycinek.to_string(os.path.join(folder,'wycinek2.txt'))
-
-
